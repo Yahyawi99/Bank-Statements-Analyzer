@@ -7,7 +7,7 @@ import java.time.*;
 public class BankTransactionSimple {
   private static final String RESOURCES = "src/main/resources/";
 
-  public static void main(String[] args) throws IOException {
+  public static void main(final String[] args) throws IOException {
     final Path path = Paths.get(RESOURCES + args[0]);
     final List<String> lines = Files.readAllLines(path);
 
