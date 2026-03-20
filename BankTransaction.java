@@ -6,7 +6,7 @@ public class BankTransaction {
   private final double amount;
   private final String desc;
 
-  BankTransaction(final LocalDate date, final double amount, final String desc) {
+  public BankTransaction(final LocalDate date, final double amount, final String desc) {
     this.date = date;
     this.amount = amount;
     this.desc = desc;
