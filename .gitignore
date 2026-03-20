@@ -1,0 +1,54 @@
+# --- Compiled Java files ---
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# --- Build Tool Directories ---
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Gradle
+.gradle/
+build/
+captures/
+
+# --- IDE Specifics ---
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.classpath
+.project
+.factorypath
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Log Files ---
+*.log
