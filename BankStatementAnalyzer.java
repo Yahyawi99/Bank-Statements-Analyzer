@@ -1,5 +1,6 @@
 import java.io.*;
 import java.nio.file.*;
+import java.time.*;
 import java.util.*;
 
 public class BankStatementAnalyzer {
@@ -15,6 +16,8 @@ public class BankStatementAnalyzer {
     final BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
 
     System.out.println("Total Transactions is " + bankStatementProcessor.calculateTotalAmount());
+    System.out.println(
+        "Total Transactions in January is " + bankStatementProcessor.calculateTotalAmountInMonth(Month.JANUARY));
   }
 
 }
