@@ -14,3 +14,7 @@ he can get better insights into his finances. Challenge accepted!
 2. Parsing the input in a given format
 3. Processing the result
 4. Reporting a summary of the result
+
+# Testing
+
+Automated test using the most popular and widely adopted Java testing framework: **JUnit**.
