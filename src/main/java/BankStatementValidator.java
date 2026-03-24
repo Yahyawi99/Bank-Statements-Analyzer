@@ -1,5 +1,6 @@
 package src.main.java;
 
+import java.nio.file.NoSuchFileException;
 import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -17,6 +18,11 @@ public class BankStatementValidator {
     this.amount = Objects.requireNonNull(amount);
   }
 
+  // THis is only for demonstration purposes and for this specific validate method
+  /**
+   * @return A Notification object containing all validation errors.
+   * @throws NoSuchFileException if the file does not exist.
+   */
   public Notification validate() {
     final Notification notification = new Notification();
 
