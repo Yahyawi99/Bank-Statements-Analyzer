@@ -14,7 +14,7 @@ public class BankStatementAnalyzer {
 
     final List<BankTransaction> bankTransactions = bankStatmentParser.parseLinesFrom(lines);
 
-    final BankStatementProcessor bankStatementProcessor = new BankStatementProcessor(bankTransactions);
+    final BankTransactionProcessor bankStatementProcessor = new BankTransactionProcessor(bankTransactions);
 
     System.out.println("Total Transactions is " + bankStatementProcessor.calculateTotalAmount());
     System.out.println(
